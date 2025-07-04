@@ -1,0 +1,30 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="lab9.MainWindow"
+        Title="lab9" Height="720" Width="630">
+    <StackPanel>
+        <TextBlock Text="WNIOSEK O PRZEPROWADZENIE EGZAMINU KOMISYJNEGO" Margin="15,15,15,0" FontSize="20" HorizontalAlignment="Center"/>
+        <StackPanel HorizontalAlignment="Center" Margin="10" Spacing="5">
+            <TextBox Name="index" Watermark="numer albumu" Width="500"/>
+            <TextBox Name="names" Watermark="nazwisko i imię" Width="500"/>
+            <TextBox Name="semyear" Watermark="semestr, rok" Width="500"/>
+            <TextBox Name="profile" Watermark="kierunek i stopień studiów" Width="500"/>
+            <TextBox Name="datesend" Watermark="data" Width="500"/>
+            <TextBox Name="subject" Watermark="przedmiot" Width="500"/>
+            <TextBox Name="points" Watermark="punkty" Width="500"/>
+            <TextBox Name="teacher" Watermark="prowadzący" Width="500"/>
+            <TextBox Name="cause" Watermark="uzasadnienie" Width="500"/>
+            <TextBox Name="stusign" Watermark="data i podpis studenta" Width="500"/>
+            <TextBlock Text="DECYZJA" FontSize="20" Margin="0,10,0,0" HorizontalAlignment="Center"/>
+            <TextBox Name="com1" Watermark="członek komisji" Width="500"/>
+            <TextBox Name="com2" Watermark="członek komisji" Width="500"/>
+            <TextBox Name="com3" Watermark="członek komisji" Width="500"/>
+            <TextBox Name="daterev" Watermark="data" Width="500"/>
+            <TextBox Name="revsign" Watermark="pieczątka i podpis" Width="500"/>
+            <Button Content="ZAPISZ" Height="45" Width="110" Margin="10" FontSize="20" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
