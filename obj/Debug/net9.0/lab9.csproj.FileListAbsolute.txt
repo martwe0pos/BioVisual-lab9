@@ -64,3 +64,7 @@
 /home/comus/RiderProjects/BioVisual/lab9/obj/Debug/net9.0/lab9.csproj.Up2Date
 /home/comus/RiderProjects/BioVisual/lab9/obj/Debug/net9.0/lab9.genruntimeconfig.cache
 /home/comus/RiderProjects/BioVisual/lab9/obj/Debug/net9.0/ref/lab9.dll
+/home/comus/RiderProjects/BioVisual/lab9/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/comus/RiderProjects/BioVisual/lab9/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/comus/RiderProjects/BioVisual/lab9/bin/Debug/net9.0/MySqlConnector.dll
+/home/comus/RiderProjects/BioVisual/lab9/obj/Debug/net9.0/lab9.sourcelink.json

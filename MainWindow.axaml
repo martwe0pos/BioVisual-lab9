@@ -24,7 +24,10 @@
             <TextBox Name="com3" Watermark="członek komisji" Width="500"/>
             <TextBox Name="daterev" Watermark="data" Width="500"/>
             <TextBox Name="revsign" Watermark="pieczątka i podpis" Width="500"/>
-            <Button Content="ZAPISZ" Height="45" Width="110" Margin="10" FontSize="20" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Click="SendQ" Content="ZAPISZ" Height="45" Width="115" Margin="10" FontSize="20" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Button Click="LoadQ" Content="WCZYTAJ" Height="45" Width="115" Margin="10" FontSize="20" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            </StackPanel>
         </StackPanel>
     </StackPanel>
 </Window>
